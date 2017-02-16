@@ -1,9 +1,9 @@
 ;Brice Allard
-        .MODEL   	small
+        	.MODEL   	small
 		.STACK    	100h
 		.DATA     
 
-New  	DB			"New England is the Winner!",13,10,'$'
+New  		DB			"New England is the Winner!",13,10,'$'
 Atl		DB			"Atlanta is the Winner!",13,10,'$'
 Tie		DB			"It is a TIE!",13,10,'$'
 		.CODE
