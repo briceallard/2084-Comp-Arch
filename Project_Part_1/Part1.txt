@@ -1,8 +1,9 @@
+;Brice Allard
 
-		    jmp		Strt:
-Strt:		mov		bh, 106H 	; move 106H into BH
-		    mov		bl, 106H 	; move 106H into BL
-		    add		bx, 257 	; add 257 to BX
+		jmp		Strt:
+Strt:		mov		bh, 106H
+		mov		bl, 106H
+		add		bx, 257
 
 1110 1001 (E9) 0000 0110 (06)
 1000 1011 (8A) 0011 1110 (3E) 0000 0110 (06) 0000 0001 (01)
