@@ -1,4 +1,4 @@
-; Thomas Johnson
+; Brice Allard
 		.MODEL		small
 		.STACK		100h
 		.DATA
